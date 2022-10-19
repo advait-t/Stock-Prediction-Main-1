@@ -6,7 +6,7 @@ import numpy as np
 from datetime import datetime, timedelta, date
 import yfinance as yf
 import warnings
-warnings.filterwarnings("ignore")
+# warnings.filterwarnings("ignore")
 
 #! Function to check if there is any new company in the list or an old company has been removed from the list
 def check_for_changes_in_companies(training_data_path, companies_list_path):
